@@ -1,0 +1,138 @@
+.wrapper {
+    margin: 0em 3em 3em 3em;
+  }
+
+body {
+    background-color: seashell;
+    font-family: Cascadia Mono;
+    margin-top: -1em;
+    margin-bottom: -3em;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+    background-color: #313131;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  
+  header nav a {
+    color: #fec66d;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    color: #676dd3;
+  }
+  
+  header nav ul li:first-of-type {
+    margin-right: auto;
+  }
+  
+  header {
+    font-family: Cascadia Mono;
+  }
+
+  main h1 {
+    color:#676dd3;
+    text-align: center;
+    background-color: #fec66d;
+    padding: 0.5em;
+  }
+
+  main a {
+    color: #676dd3;
+    text-decoration: none;
+  }
+
+  main a:visited {
+    color: #676dd3;
+  }
+
+  main a:hover {
+    color: #fec66d;
+  }
+
+  .hor-content-about-me {
+    display: flex;
+    gap: 10em;
+    justify-content: center;
+  }
+
+  .center-text {
+    text-align: center;
+    text-decoration: wavy;
+  }
+
+  footer {
+    margin-top: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  footer nav {
+    background-color: #313131;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: -1em;
+  }
+  
+  footer nav ul {
+    color: #676dd3;
+    text-decoration: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  footer nav li {
+    font-weight: normal;
+    color: #ececec;
+  }
+  
+  footer nav a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #676dd3;
+  }
+  
+  footer nav a:visited {
+    text-decoration: none;
+    color: #676dd3;
+  }
+  
+  footer nav a:hover {
+    color: #fec66d;
+    text-decoration: none;
+  }
+  
+  /*Fonts*/
+@font-face {
+    font-family: Cascadia Mono;
+    src: url(fonts/CascadiaMonoPL-Regular.otf);
+  }
+
+/*Animations*/
+
+@keyframes reviews-img {
+	0% {
+		transform: scale(0.8);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+  
